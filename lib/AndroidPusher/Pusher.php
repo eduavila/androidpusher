@@ -3,8 +3,9 @@
 namespace AndroidPusher;
 
 class Pusher
-{
-    const GOOGLE_GCM_URL = 'https://android.googleapis.com/gcm/send';
+{   
+    //new API FIREBASE FCM 
+    const GOOGLE_GCM_URL = 'https://fcm.googleapis.com/fcm/send';
 
     private $apiKey;
     private $proxy;
